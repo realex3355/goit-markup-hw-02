@@ -75,7 +75,7 @@ color: #434455
 .hero-title {
 font-weight: 700;
 font-size: 56px;
-line-height: 1.07px;
+line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 color: #FFFFFF;
@@ -119,7 +119,7 @@ overflow: hidden;
 }
 .features-list-item {
 }
-.features-header {
+.features-point {
  font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -147,3 +147,128 @@ color: var(--heading-color);
 }
 
 /* -----TEAM----- */
+
+.team {
+}
+.team-title {
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--heading-color);
+}
+.team-list {
+}
+.team-list-item {
+}
+.team-name {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--heading-color);
+}
+
+.text {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+.team-position {
+text-align: center;
+}
+
+/* ----FOOTER---- */
+
+.footer {
+}
+.logo-link {
+}
+.footer-web{
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--accent-color);
+background-color: var(--heading-color);
+}
+.footer-studio {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #F4F4FD;
+background-color: var(--heading-color);
+}
+.footer-text {
+color: #E7E9FD;
+background-color: var(--heading-color);
+}
+/* ---portfolio filters */
+.filter-buttons {
+}
+.all-btn {
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+background-color: #404BBF;
+cursor: pointer;
+}
+.btn {
+}
+.filter-btn {
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: var(--accent-color);
+cursor: pointer;
+}
+.all-btn:hover,
+.all-btn:focus {
+  background-color: #FFFFFF;
+  color: var(--accent-color)
+}
+.filter-btn:hover,
+.filter-btn:focus {
+color: #FFFFFF;
+background-color: var(--accent-color);
+
+/* ----PORTFOLIO PICTURES----- */
+}
+.port-pics {
+}
+.port-pics-list {
+}
+.port-pics-item {
+}
+.port-pics-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--heading-color);
+}
+.port-pics-text {
+}
