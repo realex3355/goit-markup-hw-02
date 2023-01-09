@@ -1,9 +1,10 @@
 :root {
-    --paragraf-color: #434455
+    --heading-color: #2E2F42;
+    --accent-color: #4D5AE5;
 }
 
 body {
-    color: #2E2F42;
+    color: #434455;
     font-family: "Roboto", sans-serif;
 }
 
@@ -35,15 +36,50 @@ line-height: 1,33;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #2E2F42;
+color: var(--heading-color);
 }
 .header-list {
 }
 .header-item {
 }
 .header-link {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--heading-color);
 }
-.header-mail {
+.header-link:hover,
+.header-link:focus {
+color: var(--accent-color)
 }
-.header-tel {
+.header-mail, .header-tel {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455
+}
+.header-mail:hover,
+.header-mail:focus {
+  color: var(--accent-color) 
+}
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--accent-color) 
+}
+.hero {
+}
+.hero-title {
+font-size: 700;
+font-size: 56px;
+line-height: 1.07px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+background-color: var(--heading-color);
+}
+.hero-btn {
+}
+.btn {
 }
