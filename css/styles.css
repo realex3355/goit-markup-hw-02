@@ -68,10 +68,12 @@ color: #434455
 .header-tel:focus {
   color: var(--accent-color) 
 }
+
+/* ----HERO---- */
 .hero {
 }
 .hero-title {
-font-size: 700;
+font-weight: 700;
 font-size: 56px;
 line-height: 1.07px;
 text-align: center;
@@ -80,6 +82,68 @@ color: #FFFFFF;
 background-color: var(--heading-color);
 }
 .hero-btn {
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+background-color: var(--accent-color);
+cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404BBF;
 }
 .btn {
 }
+
+/* -----FEATURES------ */
+.features {
+}
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
+.features-list {
+}
+.features-list-item {
+}
+.features-header {
+ font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--heading-color);
+}
+.features-text {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+/* ----DOING--- */
+.doing {
+}
+.doing-title {
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--heading-color);
+}
+.doing-list {
+}
+
+/* -----TEAM----- */
