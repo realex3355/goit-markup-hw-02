@@ -1,0 +1,49 @@
+:root {
+    --paragraf-color: #434455
+}
+
+body {
+    color: #2E2F42;
+    font-family: "Roboto", sans-serif;
+}
+
+.list {list-style: none;}
+.link {text-decoration: none;}
+
+/* -----header--- */
+.header {
+}
+.header-navigation {
+}
+.logo-link {
+}
+.web {
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+}
+.studio {
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1,33;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2E2F42;
+}
+.header-list {
+}
+.header-item {
+}
+.header-link {
+}
+.header-mail {
+}
+.header-tel {
+}
